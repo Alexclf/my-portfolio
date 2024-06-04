@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 800px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 800px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2></h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1hEZYYiLhZdsM8g2LEOdVruFZDy3M11NN/view?usp=sharing">Business Letter </a><li>
+      <li><a href="https://dpcdsborg-my.sharepoint.com/:p:/g/personal/353095839_educ_dpcdsb_org/Ea86qboW3LZLk152vpFGWw4By_uORy0s03FOAGrazkXruw?e=vJyM2W">Instapaper</a></li>
+      <li><a href="https://drive.google.com/file/d/1JGNUcejuuqSd53ZiOGHa4f7l_JhwGUTP/view?usp=sharing"> Consolidation</a></li>
+      <li><a href="https://drive.google.com/file/d/1tFcjyrJe_3-zPUPogBTTzOilTaRyzOTc/view?usp=sharing"></a></li>
+      <li><a href="https://drive.google.com/file/d/1tFcjyrJe_3-zPUPogBTTzOilTaRyzOTc/view?usp=sharing">Business poster</a></li>
+      <li><a href="https://352732457.wixstudio.io/my-site-4">Website</a></li>
+      <li><a href="https://drive.google.com/file/d/1pao4oZMLWnP4hIYbVScImpk7AVpv8cTQ/view?usp=sharing">Professional document</a></li>
+      <li><a href="https://drive.google.com/file/d/1Xk6MmjlIrsiqW464aXVPJQx_wV6zL886/view?usp=sharing">Electronic devices definition</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Business letter</h1>
+    <p>This artifact shows a professinal business letter with proper format in which I leared in my Business technology class. This can help me in the future because when I need to write a professional letter to someone in the future I would know how to do it properly so that it looks nice and so that they know I can make a professinal business letter. </p>
+    <h1>Instapaper</h1>
+    <p>This artifact demonstrates the use of digital tools that can be useful to the company. This tool can be helpful in the future because if I need to save an article in the future for my job I can use instapaer so that I don't lose the article. </p>
+    <h1>Consoldation</h1>
+    <p>This artifact shows the things i've learned about renewable energy resources and how to reduce pollution. This assignment can be helpful to me in the future because the assignment taught me about renewable energy soures that can help the environment. Knowing this I can make good decisions when buying a product because i'd know if it were healthy for the environment or not.</p>
+    <h1>Business poster</h1>
+    <p>This artifact demonstrates that I can make a business poster for my employees to assist them on the job. This can be helpful because if i'm a manager for a company I would know how to make a poster for my employees so that they know what they're doing and know the rules.</p>
+    <h1>Website</h1>
+    <p>this artifact shows that I can make a website for a business using wix. This can be useful in the future if I either I have to make a website for a company or make a website for my own business.</p>
+    <h1>Professional Document</h1>
+    <p> this artifact demonstrates the I can make a professional document for a company. This can be useful because if I need to make information for my or someones elses document look professional then I be capable of doing so.</p>
+    <h1>Electronic devices definition</h1>
+    <p> this artifact shows that I know each electronic devices and that I can define and provide a picture for them. This can be useful for the future because if I have a job about electronics then I would know certain components, know what they do and know how to operate them.</p>
+  </article>
+</section>
+
+<footer>
+  <p></p>
+</footer>
+
+</body>
+</html>
+
